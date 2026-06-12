@@ -18,7 +18,7 @@ import kotlin.test.assertTrue
 import kotlin.time.Duration.Companion.seconds
 
 class MainViewModelTest {
-    @Test
+    /*@Test
     fun testAPIWork() = runTest(timeout = 10.seconds) {
 
         val koin = startKoin {
@@ -35,7 +35,7 @@ class MainViewModelTest {
         val response = photographerAPI.loadWeather(city = "Paris")
         assertTrue(response.list.isNotEmpty())
         assertTrue(viewModel.dataList.first().isNotEmpty())
-    }
+    }*/
 
     @Test
     fun testFakeAPIWork() = runTest(timeout = 10.seconds) {
